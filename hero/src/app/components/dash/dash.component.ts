@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dash.component.css']
 })
 export class DashComponent implements OnInit {
- dash: boolean;
+
 
 
   constructor() { }
@@ -14,7 +14,5 @@ export class DashComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  dashbutton(): void {
-    this.dash = true;
-  }
+
 }

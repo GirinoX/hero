@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hero';
+  dash: boolean;
+  hero: boolean;
+
+  dashbutton(): void {
+    this.dash=true
 }
+herobutton(): void {
+  this.hero=true
+}
+}
+
