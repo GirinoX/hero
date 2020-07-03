@@ -7,7 +7,7 @@ import { DashComponent } from './components/dash/dash.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroesDetailsComponent } from './components/heroes-details/heroes-details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import {MatButtonModule} from '@angular/material/button'
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
