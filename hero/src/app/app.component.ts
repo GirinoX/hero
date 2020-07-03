@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { DashComponent } from './components/dash/dash.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +10,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tour of Heroes';
+
   dash: boolean;
   hero: boolean;
 
@@ -18,5 +22,9 @@ heroesbutton(): void {
   this.hero=true
   this.dash=false
 }
+const routes: Routes = [
+  { path: 'dashpath', component: DashComponent },
+  { path: 'heroespath', component: HeroesComponent },
+];
 }
 
