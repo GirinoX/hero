@@ -6,15 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hero';
+  title = 'Tour of Heroes';
   dash: boolean;
   hero: boolean;
 
   dashbutton(): void {
     this.dash=true
+    this.hero=false
 }
 heroesbutton(): void {
   this.hero=true
+  this.dash=false
 }
 }
 
