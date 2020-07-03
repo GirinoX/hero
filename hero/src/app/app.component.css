@@ -1,5 +1,13 @@
+h1 {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+
 .menu{
+  margin: 10px;
+  display: flex;
   max-width: 100vh;
-  flex-direction: column;
-justify-content: center;
+  flex-direction: row;
+
 }
