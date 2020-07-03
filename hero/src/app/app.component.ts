@@ -22,9 +22,7 @@ heroesbutton(): void {
   this.hero=true
   this.dash=false
 }
-const routes: Routes = [
-  { path: 'dashpath', component: DashComponent },
-  { path: 'heroespath', component: HeroesComponent },
-];
+
+
 }
 
