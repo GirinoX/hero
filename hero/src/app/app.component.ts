@@ -13,7 +13,7 @@ export class AppComponent {
   dashbutton(): void {
     this.dash=true
 }
-herobutton(): void {
+heroesbutton(): void {
   this.hero=true
 }
 }

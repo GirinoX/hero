@@ -1,0 +1,5 @@
+.menu{
+  max-width: 100vh;
+  flex-direction: column;
+justify-content: center;
+}
